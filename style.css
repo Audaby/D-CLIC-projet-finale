@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+}
+.navbar{
+    background-color: rgb(17, 207, 109);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width:100%;
+    position:sticky;
+}
+.navbar>ul {
+    list-style: none;
+}
+.navbar>ul>li {
+    display: inline;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.navbar>ul>li>a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar>ul>li>a:hover {
+    background:black;
+    padding:5px;
+    border-radius:5px;
+}
+#active{ 
+    background:hsl(289, 94%, 49%);
+    padding:5px;
+    border-radius:5px;
+}
+/*home page styling*/
+main {
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    align-items:center;
+    margin:10px 0px;
+    
+}
+#home{
+    width:100%;
+    padding:60px 0px;
+
+}
+#about{
+    width:100%;
+    padding:20px 0px;
+
+}
+.intro{
+    width:50%;
+    padding:20px;
+    text-align:center;
+    font-size:18px;
+    padding:20px;
+    border-radius:10px;
+
+}
+.intro-style{
+    width:400px;
+    height:auto;
+    padding:10px;
+
+}
+.intro button{
+    padding:10px 20px;
+    font-size:16px;
+    background:hsl(289, 94%, 49%);
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.intro button:hover{
+    background:blue;
+}
+.profile-pic{
+    width:50%;
+    padding:20px;
+    
+}
+.profile-pic img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border:2px solid rgb(231, 222, 231);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:10px 0px;
+    background:rgb(67, 56, 56);
+    height:100px;
+    align-items:center;
+}
+footer a{
+    color:white;
+    text-decoration:none;
+}
+footer a:hover{
+    background:blue;
+    padding:5px;
+    border-radius:5px;
+}
+.social-media{
+    width:60%;
+    height:auto;
+    color:white;
+}
+.social-media>a{
+    color:aliceblue;
+    padding:10px;
+    font-size:24px;
+    text-decoration:none;
+}
+
+/*abouut page*/
+.about-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    padding:20px;
+}
+.about-section>a>button{
+    background:hsl(289, 94%, 49%);
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+.about-section>a>button:hover{
+    background:blue;
+}
+
+/*skills page*/
+.head>h2{
+    text-align:center;
+    padding:0px 5px;
+}
+.skills-section{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    padding:0px;
+    gap:0px 20px;
+    width :100%;
+}
+.soft-skills{
+    width:40%;
+    height:auto;
+    background: lightgrey;
+    color:black;
+    margin:25px 40px;
+    border-radius:10px;
+}
+.skills-section .soft-skills ul{
+    list-style:none;
+}
+.hard-skills{
+    width:40%;
+    height:auto;
+    background: lightgrey;
+    color:black;
+    margin:25px 40px;
+    border-radius:10px;
+}
+.skills-section .hard-skills ul{
+    list-style:none;
+}
+/*projects page*/
+.projects-section{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    padding:20px;
+    gap:20px;
+}
+.project{
+    width:40%;
+    height:auto;
+    background: lightgrey;
+    color:black;
+    margin:40px 40px;
+    border-radius:10px;
+    padding:50px;
+}
+/*contact page*/
+.contact-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    background: lightgrey;
+    color:black;
+    margin:0px 40px;
+    border-radius:10px;
+    text-align:center;
+    gap:10px;
+    margin-left:40%
+
+}
+.contact-section>button{
+    background:hsl(289, 94%, 49%);
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
